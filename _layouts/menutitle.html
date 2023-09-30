@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>{{ page.title }}</title>
+<!-- link to main stylesheet -->
+<link rel="stylesheet" type="text/css" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/css/academicons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+</head>
+<body>
+<div  id="wrapper">
+<header>
+<a href="javascript:void(0);" id="mobileMenu" class="icon" onclick="myMenu()">
+  <i class="fa fa-bars"></i> Menu
+</a>
+<div class="Menu" id="Menu">
+  <div class="Menuleft" id="Menuleft">
+    <h1><a  href="/about">Aristide Houndetoungan</h1></a>
+  </div><!-- Menuleft -->
+
+  <div class="Menuright" id="Menuright">
+    <a id='home' href="/"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a id='about' href="/about">About Me</a>
+    <a id='research' href="/research">Research</a>
+    <a id='software' href="/software">Software/Codes</a>
+    <a id='teaching' href="/teaching">Teaching</a>
+  </div><!-- Menuleft -->
+
+</div><!-- Menu-->
+</header>
+
+<main id="Main">
+	{{ content }}
+</main>
+
+
+ <footer id="footer">
+   <div class="foot leftfoot">
+     <ul>
+       <li><p>Email: <a href="mailto:aristide.houndetoungan@cyu.fr">aristide.houndetoungan@cyu.fr</a></p> </li>
+       <li><p>Affiliations: <a href="https://thema.u-cergy.fr/" target="_blank">Thema</a>, <a href="https://www.cyu.fr/english-version" target="_blank">Cy Cergy Paris University</a></p></li>
+       <!--<li id="LscreenShow"><p>Address: CYU, Thema, 33 boulevard du Port, 95011 Cergy-Pontoise Cedex, France</p></li>-->
+     </ul>
+   </div><!-- leftfoot -->
+
+   <div class="mobileShow foot centerfoot">
+     <p></p>
+   </div><!-- rightfoot -->
+
+   <div class="foot rightfoot">
+     <p>Copyright © 2023 Aristide Houndetoungan - All Rights Reserved.</p>
+   </div><!-- rightfoot -->
+</footer><!-- footer -->
+</div>
+<script src="/js/script.js"></script>
+</body>
+</html>

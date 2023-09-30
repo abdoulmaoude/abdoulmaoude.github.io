@@ -1,2 +1,2 @@
 # My personal website
-[www.ahoundetoungan.com](https://ahoundetoungan.com)
+[abdoulmaoude.github.io](https://abdoulmaoude.github.io)

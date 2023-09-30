@@ -1,9 +1,9 @@
-title: Elysée Aristide Houndetoungan
-email: ariel92and@gmail.com
-description: Assistant Professor of Economics
-url: "https://ahoundetoungan.com/"  # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ariel2299
-github_username:  ahoundetoungan
+title: Kassimou Abdoul Haki Maoude
+email: abdoulhaki.maoude@aiesec.net
+description: Postdoctoral researcher in Statistics and Machine Learning
+url: "https://abdoulmaoude.github.io/"  # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: abdoulmaoude
+github_username:  abdoulmaoude
 theme: jekyll-theme-minimal
 markdown: kramdown
 plugins:
